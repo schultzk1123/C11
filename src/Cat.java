@@ -20,9 +20,9 @@ public class Cat {
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
 	private static final int MOUTH_Y = HEAD_DIMENSION/5 * 3;
 	
-	private static final int[] EAR_XPOS = {HEAD_DIMENSION/5*2, HEAD_DIMENSION/5*2+10, HEAD_DIMENSION/5*2+20}; 
-	private static final int[] EAR_YPOS = {HEAD_DIMENSION/5, HEAD_DIMENSION/5-10, HEAD_DIMENSION/5}; 
-	private static final int[] EAR2_XPOS = {HEAD_DIMENSION/5*4, HEAD_DIMENSION/5*4+10, HEAD_DIMENSION/5*4+20}; 
+	private static final int[] EAR_XPOS = {HEAD_DIMENSION/3*2-5, HEAD_DIMENSION/3*2+10, HEAD_DIMENSION/3*2+30}; 
+	private static final int[] EAR_YPOS = {HEAD_DIMENSION/2+20, HEAD_DIMENSION/2-10, HEAD_DIMENSION/2+20}; 
+	private static final int[] EAR2_XPOS = {HEAD_DIMENSION+5, HEAD_DIMENSION+20, HEAD_DIMENSION+40}; 
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
 	{
